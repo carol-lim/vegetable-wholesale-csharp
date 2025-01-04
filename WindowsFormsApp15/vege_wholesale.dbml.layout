@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="cookies">
+  <DataContextMoniker Name="/cookiesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="06ef7804-6c83-4f1a-8263-a5eb0f658d69" absoluteBounds="0.75, 0.5, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/cookiesDataContext/Client" />
+      <nestedChildShapes>
+        <elementListCompartment Id="858a79a0-bc13-4f7d-9863-4bf013b6a2c3" absoluteBounds="0.765, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0ae4371c-bfa7-4550-9e21-edbb12aa37c7" absoluteBounds="4.25, 2.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/cookiesDataContext/Vegetable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c368b62-1cfc-4535-993f-fb63d9ab3d16" absoluteBounds="4.2650000000000006, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a74cd92-297f-47fe-9321-f60b7c6f2602" absoluteBounds="3.375, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/cookiesDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6462030-128a-43bb-b96f-fb8b086e76be" absoluteBounds="3.39, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cafa19cd-4047-4dc9-b5e6-5501bdb1cf77" absoluteBounds="6, 0.5, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/cookiesDataContext/Vege_Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4306f950-4c5d-4c15-adef-6988ee315d2e" absoluteBounds="6.015, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.28929768880208); (3.375 : 1.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/cookiesDataContext/Client/Client_Order" />
+      <nodes>
+        <classShapeMoniker Id="06ef7804-6c83-4f1a-8263-a5eb0f658d69" />
+        <classShapeMoniker Id="4a74cd92-297f-47fe-9321-f60b7c6f2602" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 1.28929768880208); (6 : 1.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/cookiesDataContext/Order/Order_Vege_Order" />
+      <nodes>
+        <classShapeMoniker Id="4a74cd92-297f-47fe-9321-f60b7c6f2602" />
+        <classShapeMoniker Id="cafa19cd-4047-4dc9-b5e6-5501bdb1cf77" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.25 : 3.31814697265625); (7.1250005 : 3.31814697265625); (7.1250005 : 2.27089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/cookiesDataContext/Vegetable/Vegetable_Vege_Order" />
+      <nodes>
+        <classShapeMoniker Id="0ae4371c-bfa7-4550-9e21-edbb12aa37c7" />
+        <classShapeMoniker Id="cafa19cd-4047-4dc9-b5e6-5501bdb1cf77" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="94d1f852-9470-4259-a15a-9c8f1a8632c7" absoluteBounds="0.75, 2.625, 2, 1.3862939453125">
+      <DataClassMoniker Name="/cookiesDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38c689be-d037-4969-a54d-0c50493de9a8" absoluteBounds="0.76499999999999968, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
