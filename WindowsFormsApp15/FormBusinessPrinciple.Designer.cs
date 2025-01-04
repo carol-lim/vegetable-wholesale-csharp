@@ -46,9 +46,12 @@
             // 
             // pictureBoxCartoon
             // 
-            this.pictureBoxCartoon.Location = new System.Drawing.Point(10, 229);
+            this.pictureBoxCartoon.Image = global::WindowsFormsApp15.Properties.Resources.Cartoon;
+            this.pictureBoxCartoon.InitialImage = global::WindowsFormsApp15.Properties.Resources.Cartoon;
+            this.pictureBoxCartoon.Location = new System.Drawing.Point(13, 282);
+            this.pictureBoxCartoon.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxCartoon.Name = "pictureBoxCartoon";
-            this.pictureBoxCartoon.Size = new System.Drawing.Size(664, 152);
+            this.pictureBoxCartoon.Size = new System.Drawing.Size(885, 187);
             this.pictureBoxCartoon.TabIndex = 6;
             this.pictureBoxCartoon.TabStop = false;
             // 
@@ -60,34 +63,46 @@
             this.groupBox1.Controls.Add(this.pictureBoxExcellence);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Sienna;
-            this.groupBox1.Location = new System.Drawing.Point(10, 91);
+            this.groupBox1.Location = new System.Drawing.Point(13, 112);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(664, 122);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(885, 150);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Our Values";
             // 
             // pictureBoxHonesty
             // 
-            this.pictureBoxHonesty.Location = new System.Drawing.Point(16, 25);
+            this.pictureBoxHonesty.Image = global::WindowsFormsApp15.Properties.Resources.Honesty;
+            this.pictureBoxHonesty.InitialImage = global::WindowsFormsApp15.Properties.Resources.Honesty;
+            this.pictureBoxHonesty.Location = new System.Drawing.Point(21, 31);
+            this.pictureBoxHonesty.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxHonesty.Name = "pictureBoxHonesty";
-            this.pictureBoxHonesty.Size = new System.Drawing.Size(205, 81);
+            this.pictureBoxHonesty.Size = new System.Drawing.Size(273, 100);
             this.pictureBoxHonesty.TabIndex = 3;
             this.pictureBoxHonesty.TabStop = false;
+            this.pictureBoxHonesty.Click += new System.EventHandler(this.pictureBoxHonesty_Click);
             // 
             // pictureBoxResilience
             // 
-            this.pictureBoxResilience.Location = new System.Drawing.Point(431, 25);
+            this.pictureBoxResilience.Image = global::WindowsFormsApp15.Properties.Resources.Resilence;
+            this.pictureBoxResilience.InitialImage = global::WindowsFormsApp15.Properties.Resources.Resilence;
+            this.pictureBoxResilience.Location = new System.Drawing.Point(575, 31);
+            this.pictureBoxResilience.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxResilience.Name = "pictureBoxResilience";
-            this.pictureBoxResilience.Size = new System.Drawing.Size(218, 81);
+            this.pictureBoxResilience.Size = new System.Drawing.Size(291, 100);
             this.pictureBoxResilience.TabIndex = 2;
             this.pictureBoxResilience.TabStop = false;
             // 
             // pictureBoxExcellence
             // 
-            this.pictureBoxExcellence.Location = new System.Drawing.Point(227, 25);
+            this.pictureBoxExcellence.Image = global::WindowsFormsApp15.Properties.Resources.Excellence;
+            this.pictureBoxExcellence.InitialImage = global::WindowsFormsApp15.Properties.Resources.Excellence;
+            this.pictureBoxExcellence.Location = new System.Drawing.Point(303, 31);
+            this.pictureBoxExcellence.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxExcellence.Name = "pictureBoxExcellence";
-            this.pictureBoxExcellence.Size = new System.Drawing.Size(198, 81);
+            this.pictureBoxExcellence.Size = new System.Drawing.Size(264, 100);
             this.pictureBoxExcellence.TabIndex = 1;
             this.pictureBoxExcellence.TabStop = false;
             // 
@@ -97,9 +112,11 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Sienna;
-            this.groupBox2.Location = new System.Drawing.Point(10, 16);
+            this.groupBox2.Location = new System.Drawing.Point(13, 20);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(664, 60);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(885, 74);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Our Passion";
@@ -109,22 +126,25 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Snow;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(66, 27);
+            this.label1.Location = new System.Drawing.Point(88, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 16);
+            this.label1.Size = new System.Drawing.Size(648, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "To deliver fresh quality vegetables that both delicious to eat and nice to see";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormBusinessPrinciple
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(700, 393);
+            this.ClientSize = new System.Drawing.Size(933, 484);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBoxCartoon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormBusinessPrinciple";
             this.Text = "Our Business Principle";
             this.Load += new System.EventHandler(this.Form4_Load);

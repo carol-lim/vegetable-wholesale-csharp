@@ -59,7 +59,6 @@ namespace WindowsFormsApp15
 
         private void FormViewClientData_Load(object sender, EventArgs e)
         {
-            this.clientTableAdapter.Fill(this.cookiesDataSet.Client);
             displayAllData();
         }
 

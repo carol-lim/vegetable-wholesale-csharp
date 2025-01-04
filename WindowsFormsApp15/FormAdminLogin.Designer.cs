@@ -43,9 +43,10 @@
             // 
             // buttonReset
             // 
-            this.buttonReset.Location = new System.Drawing.Point(95, 328);
+            this.buttonReset.Location = new System.Drawing.Point(127, 404);
+            this.buttonReset.Margin = new System.Windows.Forms.Padding(4);
             this.buttonReset.Name = "buttonReset";
-            this.buttonReset.Size = new System.Drawing.Size(89, 23);
+            this.buttonReset.Size = new System.Drawing.Size(119, 28);
             this.buttonReset.TabIndex = 19;
             this.buttonReset.Text = "Reset Form";
             this.buttonReset.UseVisualStyleBackColor = true;
@@ -54,17 +55,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 96);
+            this.label1.Location = new System.Drawing.Point(21, 118);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 14;
             this.label1.Text = "Username";
             // 
             // buttonLogin
             // 
-            this.buttonLogin.Location = new System.Drawing.Point(19, 328);
+            this.buttonLogin.Location = new System.Drawing.Point(25, 404);
+            this.buttonLogin.Margin = new System.Windows.Forms.Padding(4);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(65, 23);
+            this.buttonLogin.Size = new System.Drawing.Size(87, 28);
             this.buttonLogin.TabIndex = 18;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.UseVisualStyleBackColor = true;
@@ -73,27 +76,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 141);
+            this.label2.Location = new System.Drawing.Point(21, 174);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 15;
             this.label2.Text = "Password";
             // 
             // textBoxPass
             // 
-            this.textBoxPass.Location = new System.Drawing.Point(84, 138);
+            this.textBoxPass.Location = new System.Drawing.Point(112, 170);
+            this.textBoxPass.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.PasswordChar = '*';
-            this.textBoxPass.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPass.Size = new System.Drawing.Size(132, 22);
             this.textBoxPass.TabIndex = 17;
             this.textBoxPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_Login);
             this.textBoxPass.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Reset_Form);
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(84, 93);
+            this.textBoxName.Location = new System.Drawing.Point(112, 114);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(132, 22);
             this.textBoxName.TabIndex = 16;
             this.textBoxName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
             this.textBoxName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_Login);
@@ -102,11 +108,14 @@
             // 
             // pictureBoxAdmin
             // 
-            this.pictureBoxAdmin.Location = new System.Drawing.Point(222, 13);
+            this.pictureBoxAdmin.Image = global::WindowsFormsApp15.Properties.Resources.Admin;
+            this.pictureBoxAdmin.Location = new System.Drawing.Point(296, 16);
+            this.pictureBoxAdmin.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxAdmin.Name = "pictureBoxAdmin";
-            this.pictureBoxAdmin.Size = new System.Drawing.Size(451, 377);
+            this.pictureBoxAdmin.Size = new System.Drawing.Size(601, 464);
             this.pictureBoxAdmin.TabIndex = 23;
             this.pictureBoxAdmin.TabStop = false;
+            this.pictureBoxAdmin.Click += new System.EventHandler(this.pictureBoxAdmin_Click);
             // 
             // groupBox1
             // 
@@ -117,22 +126,25 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.buttonLogin);
-            this.groupBox1.Location = new System.Drawing.Point(9, 13);
+            this.groupBox1.Location = new System.Drawing.Point(12, 16);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(205, 377);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(273, 464);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fill in the form";
             // 
             // FormAdminLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(704, 450);
+            this.ClientSize = new System.Drawing.Size(751, 443);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBoxAdmin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAdminLogin";
             this.Text = "Admin Login Page";
             this.Load += new System.EventHandler(this.Form7_Load);

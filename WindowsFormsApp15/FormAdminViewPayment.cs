@@ -28,9 +28,6 @@ namespace WindowsFormsApp15
 
         private void FormViewPayment_Load(object sender, EventArgs e)
         {
-            this.vegetableTableAdapter.Fill(this.cookiesDataSet.Vegetable);
-
-            this.vege_OrderTableAdapter.Fill(this.cookiesDataSet.Vege_Order);
         }
     }
 }

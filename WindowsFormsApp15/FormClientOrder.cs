@@ -8,6 +8,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp15
 {
@@ -134,7 +135,16 @@ namespace WindowsFormsApp15
         {
             pictureBoxVege.Enabled = true;
             pictureBoxVege.SizeMode = PictureBoxSizeMode.Zoom;
-            string path = "C:\\Users\\admin\\Downloads\\VegePic\\";
+            //string path = "C:\\Users\\admin\\Downloads\\VegePic\\";
+
+            // Get the current directory (the bin/Debug or bin/Release folder)
+            string currentDirectory = Directory.GetCurrentDirectory();
+
+            // Get the project directory by going up two levels (from bin to project root)
+            string projectDirectory = Directory.GetParent(currentDirectory).Parent.FullName;
+
+            // Combine with Resources folder
+            string path = Path.Combine(projectDirectory, "Resources\\");
             string type1 = ".jpg";
             string type2 = ".jpeg";
 
