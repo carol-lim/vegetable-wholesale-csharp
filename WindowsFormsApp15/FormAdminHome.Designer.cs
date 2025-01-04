@@ -40,18 +40,22 @@
             // 
             // pictureBoxDeco
             // 
-            this.pictureBoxDeco.Location = new System.Drawing.Point(154, -6);
+            this.pictureBoxDeco.Image = global::WindowsFormsApp15.Properties.Resources.Border;
+            this.pictureBoxDeco.InitialImage = global::WindowsFormsApp15.Properties.Resources.Van;
+            this.pictureBoxDeco.Location = new System.Drawing.Point(205, -7);
+            this.pictureBoxDeco.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxDeco.Name = "pictureBoxDeco";
-            this.pictureBoxDeco.Size = new System.Drawing.Size(399, 414);
+            this.pictureBoxDeco.Size = new System.Drawing.Size(532, 510);
             this.pictureBoxDeco.TabIndex = 26;
             this.pictureBoxDeco.TabStop = false;
             // 
             // buttonClientOrder
             // 
             this.buttonClientOrder.BackColor = System.Drawing.Color.Yellow;
-            this.buttonClientOrder.Location = new System.Drawing.Point(362, 190);
+            this.buttonClientOrder.Location = new System.Drawing.Point(483, 234);
+            this.buttonClientOrder.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClientOrder.Name = "buttonClientOrder";
-            this.buttonClientOrder.Size = new System.Drawing.Size(101, 31);
+            this.buttonClientOrder.Size = new System.Drawing.Size(135, 38);
             this.buttonClientOrder.TabIndex = 32;
             this.buttonClientOrder.Text = "Client Order";
             this.buttonClientOrder.UseVisualStyleBackColor = false;
@@ -60,9 +64,10 @@
             // buttonPayment
             // 
             this.buttonPayment.BackColor = System.Drawing.Color.Chartreuse;
-            this.buttonPayment.Location = new System.Drawing.Point(291, 237);
+            this.buttonPayment.Location = new System.Drawing.Point(388, 292);
+            this.buttonPayment.Margin = new System.Windows.Forms.Padding(4);
             this.buttonPayment.Name = "buttonPayment";
-            this.buttonPayment.Size = new System.Drawing.Size(122, 31);
+            this.buttonPayment.Size = new System.Drawing.Size(163, 38);
             this.buttonPayment.TabIndex = 31;
             this.buttonPayment.Text = "Other Details";
             this.buttonPayment.UseVisualStyleBackColor = false;
@@ -71,9 +76,10 @@
             // buttonClientData
             // 
             this.buttonClientData.BackColor = System.Drawing.Color.Orange;
-            this.buttonClientData.Location = new System.Drawing.Point(238, 190);
+            this.buttonClientData.Location = new System.Drawing.Point(317, 234);
+            this.buttonClientData.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClientData.Name = "buttonClientData";
-            this.buttonClientData.Size = new System.Drawing.Size(100, 31);
+            this.buttonClientData.Size = new System.Drawing.Size(133, 38);
             this.buttonClientData.TabIndex = 30;
             this.buttonClientData.Text = "Client Data";
             this.buttonClientData.UseVisualStyleBackColor = false;
@@ -83,18 +89,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(277, 154);
+            this.label1.Location = new System.Drawing.Point(369, 190);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 13);
+            this.label1.Size = new System.Drawing.Size(191, 16);
             this.label1.TabIndex = 33;
             this.label1.Text = "Sellect One Button To Continue";
             // 
             // linkLabelLogout
             // 
             this.linkLabelLogout.AutoSize = true;
-            this.linkLabelLogout.Location = new System.Drawing.Point(332, 287);
+            this.linkLabelLogout.Location = new System.Drawing.Point(443, 353);
+            this.linkLabelLogout.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabelLogout.Name = "linkLabelLogout";
-            this.linkLabelLogout.Size = new System.Drawing.Size(40, 13);
+            this.linkLabelLogout.Size = new System.Drawing.Size(48, 16);
             this.linkLabelLogout.TabIndex = 34;
             this.linkLabelLogout.TabStop = true;
             this.linkLabelLogout.Text = "Logout";
@@ -102,10 +110,10 @@
             // 
             // FormAdminHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1326, 626);
+            this.ClientSize = new System.Drawing.Size(1414, 616);
             this.Controls.Add(this.linkLabelLogout);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonClientOrder);
@@ -113,6 +121,7 @@
             this.Controls.Add(this.buttonClientData);
             this.Controls.Add(this.pictureBoxDeco);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAdminHome";
             this.Text = "Admin Home Page";
             this.Load += new System.EventHandler(this.Form6_Load);

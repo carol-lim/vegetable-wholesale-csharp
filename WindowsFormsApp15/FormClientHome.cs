@@ -21,7 +21,7 @@ namespace WindowsFormsApp15
         private void Form8_Load(object sender, EventArgs e)
         {
             pictureBoxDeco.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Border.jpg";
+            //pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Border.jpg";
         }
 
         private void buttonView_Click(object sender, EventArgs e)

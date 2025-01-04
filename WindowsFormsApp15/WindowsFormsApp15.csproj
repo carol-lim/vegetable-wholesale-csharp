@@ -222,6 +222,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="vege_wholesale.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -269,6 +270,183 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bawangBesar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cartoon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excellence.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FemaleWorker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Honesty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaleWorker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resilence.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Van.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bendi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brokoli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buncis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cendawanSalji.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choySum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciliBulatKuning.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciliMerah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enokiCendawan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haliaTua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kacangBotol.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kacangPangjang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kacangPea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kailan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kangkungTempatan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kasturi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keledekOren.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keledekPutih.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kingOysterMushroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobisBeijing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobisBunga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobisCameron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobisMerah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobisPanjang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\labuAir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\labuMerah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leekChina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobakMerah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lobakPutih.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peria.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saderiChina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saladBulat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sawiCameron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sawiJepun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sawiKecil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sawiPutih.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terungBulat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terungSusu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timunJepun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ubiBit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ubiTeratai.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

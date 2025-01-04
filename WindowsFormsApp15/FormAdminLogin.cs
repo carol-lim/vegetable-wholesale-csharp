@@ -76,7 +76,7 @@ namespace WindowsFormsApp15
         {
             buttonReset.Enabled = false;
             pictureBoxAdmin.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBoxAdmin.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Admin.jpg";
+            //pictureBoxAdmin.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Admin.jpg";
 
         }
 
@@ -109,6 +109,11 @@ namespace WindowsFormsApp15
         {
             if (e.KeyCode == Keys.Escape)
                 Reset();
+        }
+
+        private void pictureBoxAdmin_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
