@@ -20,7 +20,7 @@ namespace WindowsFormsApp15
         private void Form3_Load(object sender, EventArgs e)
         {          
             pictureBoxMap.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxMap.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Map.png";
+            //pictureBoxMap.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Map.png";
         }
        
     }

@@ -63,7 +63,7 @@ namespace WindowsFormsApp15
         private void Form10_Load(object sender, EventArgs e)
         {
             pictureBoxDeco.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Fork.jpg";
+            //pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Fork.jpg";
 
             //update.CID = Login.CID;
             update.Load();
