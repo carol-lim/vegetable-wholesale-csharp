@@ -98,7 +98,7 @@ namespace WindowsFormsApp15
         {
             buttonReset.Enabled = false;
             pictureBoxDeco.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Seller.png";
+            //pictureBoxDeco.ImageLocation = $"C:\\Users\\admin\\Downloads\\EBProject\\Seller.png";
             register.GenerateCustomeriD();
 
         }
