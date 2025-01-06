@@ -116,6 +116,16 @@ namespace WindowsFormsApp15
 
         }
 
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void adminBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void buttonReset_Click(object sender, EventArgs e)
         {
             Reset();
